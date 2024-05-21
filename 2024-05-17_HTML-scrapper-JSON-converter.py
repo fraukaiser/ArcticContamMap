@@ -16,7 +16,7 @@ import random
 
 #%% Load CS sample reports
 
-reports_sample_df = pd.read_csv('/home/skaiser/Documents/03_AWI/03_ContNA/01_input_data/CS_AK/2024-05-17_CS-sample.csv')
+reports_sample_df = pd.read_csv('/home/skaiser/file/path/here/01_input_data/CS_AK/2024-05-17_CS-sample.csv')
 #%%
 # Function to fetch the HTML content with random delay
 def fetch_html_with_delay(url):
